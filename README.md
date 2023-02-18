@@ -1,2 +1,2 @@
-# Customer_Elasticity
-Customer Conversion Model
+# General Engines to Power R & Python scripts
+
