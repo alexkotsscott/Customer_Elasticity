@@ -5,7 +5,7 @@ def train_validate_test_split(df, train_percent=.6, validate_percent=.2, seed=No
             df:                 data frame to split into train, validate, split segments
             train_percent:      split for the train split of the df
             validate_percent:   split for the validation data
-            seed:               set seed for replicatio
+            seed:               set seed for replication
 
         Returns:    
             Train Data
