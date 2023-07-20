@@ -1,3 +1,19 @@
+def import_or_install(package):
+
+    """
+        Args:
+            package:                 Package required to run script
+
+        Returns:
+            Noting - installs the package if it's required in the script  
+            
+    """
+
+    try:
+        __import__(package)
+    except ImportError:
+        pip.main(['install', package])
+
 def train_validate_test_split(df, train_percent=.6, validate_percent=.2, seed=None):
     
     """
